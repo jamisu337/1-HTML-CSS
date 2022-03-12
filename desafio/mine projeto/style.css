@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf');
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(245, 255, 191);
+}
+
+header{
+    background-image: linear-gradient(180deg, #0eaa54, #036317);
+    text-align: center;
+    color: azure;
+}
+
+#txt_sub{
+    text-align: center;
+    text-indent: 0px;
+}
+
+nav{
+    text-align: left;
+    padding: 5px;
+}
+
+.links1{
+    text-decoration: none;
+    color: azure;
+    padding: 10px;
+}
+
+.links1:hover {
+    background-color: #025213;
+    border-radius: 5px;
+}
+
+.links2{
+    color: black;
+    padding: 0px;
+    text-decoration: none;
+    background-color: #59cf8ed0;
+    
+}
+
+main{
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 40px;
+    background-color: aliceblue;
+    padding: 10px ;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+img{
+    width: 100%;
+}
+
+#bugdroid{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+h1{
+    margin-top: 0px;
+    padding-top: 40px;
+
+}
+
+h2{
+    font-family: 'android';
+    color: darkgreen;
+    background-image: linear-gradient(90deg, #0eaa5452, rgba(0, 0, 0, 0));
+    padding-left: 30px;
+}
+
+h3{
+    font-family: 'android';
+    color: darkgreen;
+    background-image: linear-gradient(90deg, #0eaa5452, rgba(0, 0, 0, 0));
+    padding-left: 30px;
+}
+
+h4{
+    margin-top: 2px;
+    background-color: #025213;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#lista{
+    display: flex; 
+
+}
+
+#lista1{
+
+    margin: 0px;
+    margin: auto;
+}
+
+#lista2{
+
+    margin: 0px;
+    margin: auto;
+}
+
+#area_da_lista{
+    background-color: #88f8bb;
+    border-radius: 20px;
+
+}
+
+.p_debaixo{
+    padding: 10px;
+    margin: 0px;
+}
+
+#video{
+    color: #025213;
+    text-align: center;
+    background-color: #2ca546;
+    margin-bottom: 30px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 10px;
+    padding-bottom: 50%;
+    position: relative;
+
+}
+
+#video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer{
+    text-align: center;
+    background-color: #025213;
+    color: aliceblue;
+}
